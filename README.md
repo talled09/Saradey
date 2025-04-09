@@ -1,4 +1,26 @@
-
+```
+ saradey/
+├── index.html                  # Página principal
+├── productos.html              # Página de productos
+├── carrito.html                # Página del carrito de compras
+├── css/
+│   └── style.css              # Estilos principales
+├── js/
+│   ├── main.js                # JavaScript principal
+│   └── cart.js                # Funcionalidad del carrito
+├── img/                       # Directorio para imágenes
+│   ├── logo.png              # Logo de la empresa
+│   ├── productos/            # Imágenes de productos
+│   │   ├── bidon-20l.png
+│   │   ├── pack-botellas.png
+│   │   ├── dispensador.png
+│   │   └── suscripcion.png
+│   └── hero/                 # Imágenes de la sección hero
+│       └── espacio.jpg
+└── api/                      # API de placeholder para imágenes
+    └── placeholder/
+```
+    
 ## Descripción de Archivos y Funcionalidades
 
 ### Páginas HTML
