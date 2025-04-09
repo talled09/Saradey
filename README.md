@@ -1,3 +1,9 @@
+#SARADEY - WEB DE VENTAS DE AGUAS 
+Este repositorio contiene el proyecto web para  "ventas de aguas" es un sitio web moderno y facil de manejar.
+
+## Estructura del Proyecto
+
+
 ```
  saradey/
 ├── index.html                  # Página principal
