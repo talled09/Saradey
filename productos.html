@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Saradey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Saradey Logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="index.html#servicios">Servicios</a></li>
+                        <li><a href="index.html#productos">Productos</a></li>
+                        <li><a href="index.html#proceso">Cómo Funciona</a></li>
+                        <li><a href="index.html#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="mobile-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <a href="index.html#contacto" class="btn btn-primary">Pedir Ahora</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero products-hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Nuestros Productos</h1>
+                <p>Descubre nuestra amplia gama de productos de agua purificada y accesorios para tu hogar o empresa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filtros de Productos -->
+    <section class="section product-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="bidones">Bidones</button>
+                <button class="filter-btn" data-filter="botellas">Botellas</button>
+                <button class="filter-btn" data-filter="dispensadores">Dispensadores</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section class="section products">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Bidones -->
+                <div class="product-card" data-category="bidones">
+                    <div class="product-image">
+                        <img src="img/1.png" alt="Bidón 20L">
+                    </div>
+                    <div class="product-info">
+                        <h3>Bidón 20L</h3>
+                        <p>Agua purificada en bidón retornable de 20 litros, ideal para dispensadores.</p>
+                        <div class="product-price">S/. 12.00</div>
+                        <a href="index.html#contacto" class="btn btn-primary">Consultar</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="bidones">
+                    <div class="product-image">
+                        <img src="img/8.jpg" alt="Bidón 10L">
+                    </div>
+                    <div class="product-info">
+                        <h3>Bidón 10L</h3>
+                        <p>Bidón retornable de 10 litros, perfecto para espacios pequeños.</p>
+                        <div class="product-price">S/. 8.00</div>
+                        <a href="index.html#contacto" class="btn btn-primary">Consultar</a>
+                    </div>
+                </div>
+
+                <!-- Botellas -->
+                <div class="product-card" data-category="botellas">
+                    <div class="product-image">
+                        <img src="img/2.JPG" alt="Pack de botellas">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pack 12 Botellas</h3>
+                        <p>Pack de 12 botellas de 625ml, perfectas para consumo personal o eventos.</p>
+                        <div class="product-price">S/. 15.00</div>
+                        <a href="index.html#contacto" class="btn btn-primary">Consultar</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="botellas">
+                    <div class="product-image">
+                        <img src="img/3.jpg" alt="Agua alcalina">
+                    </div>
+                    <div class="product-info">
+                        <h3>Agua Alcalina</h3>
+                        <p>Agua premium con pH balanceado para un mejor bienestar y salud.</p>
+                        <div class="product-price">S/. 18.00</div>
+                        <a href="index.html#contacto" class="btn btn-primary">Consultar</a>
+                    </div>
+                </div>
+
+                <!-- Dispensadores -->
+                <div class="product-card" data-category="dispensadores">
+                    <div class="product-image">
+                        <img src="img/4.jpg" alt="Dispensador">
+                    </div>
+                    <div class="product-info">
+                        <h3>Dispensador Premium</h3>
+                        <p>Dispensador de agua fría y caliente, con garantía y mantenimiento incluido.</p>
+                        <div class="product-price">Desde S/. 159.00</div>
+                        <a href="index.html#contacto" class="btn btn-primary">Consultar</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dispensadores">
+                    <div class="product-image">
+                        <img src="img/7.webp" >
+                    </div>
+                    <div class="product-info">
+                        <h3>Dispensador Básico</h3>
+                        <p>Dispensador de agua fría, ideal para espacios pequeños.</p>
+                        <div class="product-price">Desde S/. 99.00</div>
+                        <a href="index.html#contacto" class="btn btn-primary">Consultar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" alt="Saradey Logo">
+                    </div>
+                    <p>Somos una empresa comprometida con la calidad y el servicio al cliente. Nuestra misión es llevar agua pura y fresca a cada hogar y empresa en Perú.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Saradey. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/51987654321" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html> 
